@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adrián Fernández - Full-stak Developer</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="i/avatar.jpg" alt="Avatar" class="avatar">
+      <div class="header-content">
+        <h1>Hi 🖐<br />My name is Adrián Fernández</h1>
+        <div class="subtitle">
+          Full Stak Web Developer <span class="dot">•</span>
+          JavaScript and TypeScript Passionate <span class="dot">•</span>
+          Never stop learning <span class="dot">•</span>
+          Crossfit student <span class="dot">•</span>
+          Habana, Cuba
+        </div>
+        <div class="contacts">
+          <a href="https://github.com/adrianfdez469" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_github.svg" alt="GitHub" />
+            </span>
+            <span>GitHub</span>
+          </a>
+          <a href="https://profile.codersrank.io/user/adrianfdez469" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_cr.svg" alt="CodersRank" />
+            </span>
+            <span>CodersRank</span>
+          </a>
+        </div>
+      </div>
+      </div>
+    </header>
+    
+    <section>
+      <h2>My Coding Activity & Stats</h2>
+      <p class="branding">Powered by <a href="https://profile.codersrank.io/user/adrianfdez469" target="_blank" rel="noopener noreferrer">CodersRank</a></p>
+      <codersrank-summary
+        username="adrianfdez469"
+        show-header="false"
+      ></codersrank-summary>
+      
+      <div class="widget activity-widget">
+        <codersrank-activity
+          username="adrianfdez469"
+          legend="false"
+          labels
+          tooltip
+          step="5"
+          svg-width="1120"
+          branding="false"
+        ></codersrank-activity>
+      </div>
+      
+      <codersrank-skills-chart
+        class="widget"
+        username="adrianfdez469"
+        legend="false"
+        tooltip
+        labels
+        skills="JavaScript,CSS,TypeScript,CSS,HTML,Node,Express,Mongo,React,React-native,NextJs"
+        svg-width="1120"
+        svg-height="400"
+        branding="false"
+      ></codersrank-skills-chart>
+    </section>
+    
+    <section>
+      <h2>Recent Projects</h2>
+      <p>I am very passionate about building mobile and desktop web applications and Rest APIs with Node in the backend.</p>
+      <codersrank-portfolio
+        class="widget"
+        username="adrianfdez469"
+        grid
+        company="false"
+        branding="false"
+      ></codersrank-portfolio>
+     
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <codersrank-work-experience
+        class="widget"
+        username="adrianfdez469"
+        logos
+        grid
+        branding="false"
+      ></codersrank-work-experience>
+      <h2>Education</h2>
+      <codersrank-education
+        class="widget"
+        username="adrianfdez469"
+        branding="false"
+        logos
+        grid
+      ></codersrank-education>
+    </section>
+
+    <footer>Copyright © 2020 - 2021 Vladimir Kharlampidi</footer>
+  </main>
+
+  <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+  
+</body>
+</html>
